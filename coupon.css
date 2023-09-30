@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.couponBg {
+    background-color: rgb(255, 255, 255);
+   padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.coupMainSec{
+    /* background-color: aquamarine; */
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.coupHead{
+    background-color: rgb(77, 213, 32);
+    color: white;
+    padding: 0px 20px;
+    border-radius: 50px;
+    
+}
+.coupScoreT{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    /* background-color: red; */
+}
+#score{
+    font-size: 2rem;
+    color: rgb(240, 54, 107);
+}
+.coupNumb{
+    font-size: 1rem;
+}
+.coupImg{
+    background-color: rgb(131, 214, 214);
+    width: 100vh;
+    /* height: 10vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.coupImg img{
+    height: 40rem;
+    width: 40rem;
+}
+.coupThankMsg{
+    /* padding: 10px; */
+    font-size: 3vh;
+}
+@media(max-width:540px){
+    .coupMainSec{
+        font-size: 10px;
+    }
+    .coupScoreT{
+        font-size: 9px;
+    }
+    .coupImg{
+        width: 55vh;
+
+    }
+    .coupImg img{
+        height: 25rem;
+        width: 25rem;
+    }
+    .coupNumb{
+        font-size: 10px;
+    }
+}
+@media(max-width:912px){
+    .coupMainSec{
+        font-size: 17px;
+    }
+    .coupScoreT{
+        font-size: 15px;
+    }
+    .coupImg{
+        width: 60vh;
+
+    }
+    .coupImg img{
+        height: 40rem;
+        width: 40rem;
+    }
+    .coupNumb{
+        font-size: 20px;
+    }
+}

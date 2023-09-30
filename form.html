@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<style>
+    #resultForm{
+        display: none;
+        background: white;
+        height: 15vh; 
+        /* width: 15vh; */
+    }
+</style>
+
+<body>
+
+    <section class="bookTableSec">
+        <div class="bookTable">
+            <div class="loginHead">
+                <h1>LOG IN</h1>
+            </div>
+            <div class="bookTableCard">
+<form action="">
+                <div class="allInputsSec">
+
+                    <div class="inpSec">
+                        <label for="name"> Name</label>
+                        <input type="text" name="" id="name" required >
+                    </div>
+
+                    <div class="inpSec">
+                        <label for="name">User Name</label>
+                        <input type="text" name="" id="uname" required>
+                    </div>
+
+                    <div class="inpSec">
+                        <label for="phone">Email</label>
+                        <input type="email" name="" id="email" required>
+                    </div>
+
+                    <div id="subTn"><button id="sum_data"  onclick="checkData()">SUBMIT</button>
+                    </div>
+
+
+                </div>
+            </form>
+                <div class="aleraydLoginSec">
+                    <div class="alreadyText" ><b> Already Log In ? |</b> </div>
+                    <div class="signup"><b>
+                        SIGN UP</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    </div>
+
+        <div class="results" id="resultForm">
+            <script src="script.js"></script>
+
+</body>
+<script>
+//     function checkData(){
+//     var takeUser=document.getElementById('uname')
+//     var takePass=document.getElementById('password')
+//     var results1=document.getElementById('resultForm')
+//     var creEle=document.createElement('li')
+//     results1.appendChild(creEle)
+//     creEle.innerHTML="User Name : "+takeUser.value  
+
+//     var creDel=document.createElement('label')
+//     creDel.innerHTML=" X "
+//     creEle.appendChild(creDel)
+//     document.getElementById('uname').value=" "
+//     saveData()
+//     showData()
+// }
+// resultForm.addEventListener('click',(e)=>{
+//    if( e.target.tagName=='LABEL'){
+//     console.log("hi")
+// e.target.parentElement.remove()
+//    }
+//    saveData()
+//     showData()
+// })
+// function saveData(){
+// localStorage.setItem('data',resultForm.innerHTML)
+// }
+// function showData(){
+// resultForm.innerHTML= localStorage.getItem('data')
+// }
+// showData()
+</script>
+
+
+</html>

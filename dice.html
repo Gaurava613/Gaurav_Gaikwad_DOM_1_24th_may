@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.diceImg img{
+height: 10vh;
+}
+.diceSec{
+    background: red;
+    display: flex;
+    justify-content: center;
+}
+.diceBg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#allValues{
+    /* display: none; */
+}
+</style>
+
+<body>
+    <div class="dicePage">
+        <div class="diceHead">
+            <h1>Hi dice</h1>
+        </div>
+
+        <div class="diceSec">
+            <div class="diceBg">
+
+                <div class="dice1">
+                    <div class="diceImg">
+                        <img src="images/dice1.img.png" alt="">
+                    </div>
+                    <div class="diceText">
+                        dice 1
+                    </div>
+                </div>
+
+                <div class="dice1">
+                    <div class="diceImg">
+                        <img src="images/dice2.img.png" alt="">
+                    </div>
+                    <div class="diceText">
+                        dice 2
+                    </div>
+                </div>
+
+                <div class="dice1">
+                    <div class="diceImg">
+                        <img src="images/dice3.img.png" alt="">
+                    </div>
+                    <div class="diceText">
+                        dice 3
+                    </div>
+                </div>
+
+                <div class="dice1">
+                    <div class="diceImg">
+                        <img src="images/dice4.img.png" alt="">
+                    </div>
+                    <div class="diceText">
+                        dice 4
+                    </div>
+                </div>
+
+                <div class="dice1">
+                    <div class="diceImg">
+                        <img src="images/dice5.img.png" alt="">
+                    </div>
+                    <div class="diceText">
+                        dice 5
+                    </div>
+                </div>
+
+                <div class="dice1">
+                    <div class="diceImg">
+                        <img src="images/dice6.img.png" alt="">
+                    </div>
+                    <div class="diceText">
+                        dice 6
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-- ////////////////////////////
+    ID
+    /////////////////////////////// -->
+
+    <h1>hi</h1>
+
+    <div id="allValues">
+
+    <li id="getV1">
+        1
+    </li>
+    <li id="getV3">
+        3
+    </li>
+    <li id="getV5">
+        5
+    </li>
+    <li id="getV6">
+        6
+    </li>
+
+</div>
+
+
+</body>
+<script>
+var val1=document.getElementById('getV1')
+var val1=document.getElementById('getV3')
+var val1=document.getElementById('getV5')
+var val1=document.getElementById('getV6')
+
+allValues.addEventListener('click',(e)=>{
+    if(e.target.tagName=='LI'){
+        console.log(e.target.textContent)
+    }
+
+})
+
+let one=1
+let two=2
+let three=3
+
+let add=0
+
+let resu=one+two+three
+
+console.log(resu)
+
+
+</script>
+
+</html>
